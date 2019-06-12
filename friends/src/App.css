@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.friendCard {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  width: 250px;
+}
+
+.togglebutton {
+  padding: 15px;
+  background: lightgreen;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.2rem;
+  border: 1px solid lightblue;
+  margin-bottom: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: auto;
+  align-items: center;
+
+}
+
+.show input {
+  width: 200px;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 3px;
+  border: none;
+  background: rgba(135, 206, 250, 0.315);
+}
+
+.show button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  background: lightskyblue;
+  color: white;
+}
